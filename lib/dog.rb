@@ -2,7 +2,7 @@ require 'pry'
 
 class Dog
   
-@@all = []
+@@all = ["Pluto", "Fido", "Maddy"]
 
   def initialize(name)
     
