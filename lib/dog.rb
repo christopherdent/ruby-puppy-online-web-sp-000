@@ -30,7 +30,7 @@ class Dog
      
       
     end 
-    binding.pry 
+ 
   end 
-  
+     binding.pry 
 end 
