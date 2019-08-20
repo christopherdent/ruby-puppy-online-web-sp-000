@@ -25,7 +25,7 @@ class Dog
   def self.print_all 
     
     @@all.each do |dog|
-      p dog.inspect
+      p dog.to_s
     end 
   end 
   
