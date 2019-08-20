@@ -27,8 +27,10 @@ class Dog
     @@all.each do |pup|
       puts pup.instance_variable_get(:@name)
     end 
-
- 
   end 
+    
+  def self.save 
+    
+    
      
 end 
