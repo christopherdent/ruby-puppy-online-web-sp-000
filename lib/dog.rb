@@ -25,7 +25,7 @@ class Dog
   def self.print_all 
 
     @@all.each do |pup|
-      puts pup.type_count
+      puts pup.all
     end 
 
  
