@@ -26,5 +26,5 @@ class Dog
       puts dog 
     end 
   end 
-  
+  binding.pry 
 end 
