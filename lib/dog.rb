@@ -24,7 +24,7 @@ class Dog
   
   def self.print_all 
     
-    @@all.find_all do |dog|
+    @@all.each do |dog|
       p dog 
     end 
   end 
