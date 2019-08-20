@@ -23,11 +23,9 @@ class Dog
   end 
   
   def self.print_all 
-    
 
-    
     @@all.instance_variables.map do |pup|
-      puts [pup, obj.instance_variable_get(pup)].join(":")
+      puts pup
     end 
 
  
