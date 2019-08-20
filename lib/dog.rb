@@ -24,7 +24,7 @@ class Dog
   
   def self.print_all 
 
-    @@all.instance_variables.map do |pup|
+    @@all.map do |pup|
       puts pup
     end 
 
