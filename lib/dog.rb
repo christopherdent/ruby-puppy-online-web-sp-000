@@ -25,7 +25,7 @@ class Dog
   def self.print_all 
 
     @@all.each do |pup|
-      puts pup
+      puts pup.instance_variable_get(:@name)
     end 
 
  
