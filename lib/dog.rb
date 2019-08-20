@@ -28,7 +28,6 @@ class Dog
      
        p pup
      
-      
     end 
  
   end 
